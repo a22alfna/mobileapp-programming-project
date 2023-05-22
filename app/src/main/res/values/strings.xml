@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Project</string>
+    <string name="Info_Text">
+        Denna app är för den som är intreserad
+        av olika stor städer och ska visa hur
+        stora dessa städer är och hur mycket
+        det skulle kosta att bo där per månad.
+    </string>
 </resources>
