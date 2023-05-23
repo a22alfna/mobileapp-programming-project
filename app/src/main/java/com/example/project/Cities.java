@@ -1,79 +1,80 @@
 package com.example.project;
 
 public class Cities {
-    private String citiesID;
-    private String citiesName;
-    private String citiesLocation;
-    private int citiesSize;
-    private int citiesCost;
+    private String ID;
+    private String name;
+    private String location;
+    private int size;
+    private int cost;
 
 
 
-    public Cities(String id, String name, String location, int size, int cost) {
-        this.citiesID = id;
-        this.citiesName = name;
-        this.citiesLocation = location;
-        this.citiesSize = size;
-        this.citiesCost = cost;
+    public Cities(String ID, String name, String location, int size, int cost) {
+        this.ID = ID;
+        this.name = name;
+        this.location = location;
+        this.size = size;
+        this.cost = cost;
     }
 
 
     public String getid() {
 
-        return citiesID;
+        return ID;
     }
 
-    public void setid(String id) {
+    public void setID(String ID) {
 
-        this.citiesID = id;
+        this.ID = ID;
     }
 
 
 
-    public String getName() {
+    public String getname() {
 
-        return citiesName;
+        return name;
     }
 
-    public void setName(String name) {
+    public void setname (String name) {
 
-        this.citiesName = name;
+        this.name = name;
     }
 
 
 
     public String getlocation() {
 
-        return citiesLocation;
+        return location;
     }
 
     public void setlocation(String location) {
 
-        this.citiesLocation = location;
+        this.location = location;
     }
 
 
 
-    public int getSize() {
+    public int getsize() {
 
-        return citiesSize;
+        return size;
     }
 
-    public void setSize(int size) {
+    public void setsize(int size) {
 
-        this.citiesSize = size;
+        this.size = size;
     }
 
 
     public int getcost() {
 
-        return citiesCost;
+        return cost;
     }
 
     public void setcost(int cost) {
 
-        this.citiesCost = cost;
+        this.cost = cost;
     }
+
 
 
 }
